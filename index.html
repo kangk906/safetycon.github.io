@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Safety Constrained Deep Reinforcement Learning Control for Human-Robot Collaboration in Construction</title>
+  <title>Safety-Constrained Deep Reinforcement Learning Control for Human-Robot Collaboration in Construction</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.svg">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -67,7 +67,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Safety Constrained Deep Reinforcement Learning Control for Human-Robot Collaboration in Construction</h1>
+            <h1 class="title is-1 publication-title">Safety-Constrained Deep Reinforcement Learning Control for Human-Robot Collaboration in Construction</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
@@ -115,7 +115,14 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Worker safety has become an increasing concern in human-robot collaboration (HRC) due to potential new hazards and risks introduced by robots. Deep Reinforcement Learning (DRL) has demonstrated to be efficient in training robots to acquire complex construction skills. However, conventional neural network policies for collision avoidance lack theoretical safety guarantees and face challenges with out-of-distribution scenarios. To address this, we propose a biomimetic safety constrained DRL control method inspired by vertebrates' decision-making systems: a neural network functions as the brain, generating reference actions, while a reference governor layer acts as the spinal cord, determining the applied reference actions. This approach enhances DRL by enabling robots to intuitively respond to environmental stimuli, prioritizing safety and ensuring rapid responses. Theoretical safety guarantees related to torque, joint limitations, velocity, and distance were analyzed. Experiment results demonstrate that the proposed method can provide a safe HRC mode in both static and dynamic scenarios for construction.
+            Worker safety has become an increasing concern in human-robot collaboration (HRC) due to potential hazards and risks introduced by robots. 
+            Deep Reinforcement Learning (DRL) has demonstrated to be efficient in training robots to acquire complex construction skills. 
+            However, neural network policies for collision avoidance lack theoretical safety guarantees and face challenges with out-of-distribution scenarios. 
+            This paper proposes a biomimetic safety-constrained DRL control system, inspired by vertebrate decision-making systems. 
+            A neural network policy serves as the "brain" for complex decision-making, while a reference governor layer functions like the spinal cord, 
+            enabling rapid responses to environmental stimuli and prioritizing safety. Theoretical safety guarantees related to robot dynamics including torque, 
+            joint angle, velocity, and distance were analyzed. Experimental results demonstrate that the proposed method achieves a 0% collision rate, providing 
+            a safe HRC mode in both static and dynamic construction scenarios.
           </p>
         </div>
       </div>
